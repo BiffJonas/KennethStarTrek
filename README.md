@@ -1,2 +1,2 @@
 # KennethStarTrek
-appreciasion page of our belved webbteacher kenneth many adventures
+Appreciation site for our beloved wed-development teacher Kenneth!
