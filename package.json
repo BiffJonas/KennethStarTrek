@@ -4,7 +4,8 @@
   "description": "appreciasion page of our belved webbteacher kenneth many adventures",
   "main": "index.js",
   "scripts": {
-    "watch:scss": "onchange sass style.scss dist/style.css"
+    "watch:scss": "onchange sass style.scss dist/style.css",
+    "watch:html": "oncahnge html"
   },
   "repository": {
     "type": "git",
