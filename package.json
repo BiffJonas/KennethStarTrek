@@ -4,7 +4,7 @@
   "description": "appreciasion page of our belved webbteacher kenneth many adventures",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch:scss": "onchange sass style.scss dist/style.css"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/BiffJonas/KennethStarTrek/issues"
   },
-  "homepage": "https://github.com/BiffJonas/KennethStarTrek#readme"
+  "homepage": "https://github.com/BiffJonas/KennethStarTrek#readme",
+  "devDependencies": {
+    "onchange": "^7.1.0"
+  }
 }
