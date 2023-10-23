@@ -23,6 +23,7 @@
     "onchange": "^7.1.0"
   },
   "dependencies": {
+    "cypress": "^13.3.2",
     "node": "^21.0.0"
   }
 }
