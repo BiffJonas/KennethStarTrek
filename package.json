@@ -4,9 +4,11 @@
   "description": "appreciasion page of our belved webbteacher kenneth many adventures",
   "main": "index.js",
   "scripts": {
-    "watch:scss": "onchange sass style.scss dist/style.css",
-    "watch:html": "oncahnge html",
-    "start": "nodemon app.js"
+    "watch:scss": "onchange sass style.scss public/style.css",
+    "watch:html": "onchange html",
+    "node": "nodemon app.js",
+    "start": "npm run node && npm run watch:scss",
+    "watch": "npm-run-all --parallel watch:*"
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,7 @@
   },
   "dependencies": {
     "cypress": "^13.3.2",
+    "express": "^4.18.2",
     "node": "^21.0.0"
   }
 }

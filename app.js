@@ -1,10 +1,9 @@
-const http = require('http')
-
-const server = http.createServer((req, res) =>{
-    res.end('hello')
-})
-
-server.listen(5000,() =>{
-    console.log("server is listnening")
+const express = require('express')
+const app = express()
+const path = require('path')
+app.use(express.static('./public'))
+ 
+app.listen(5000,()=>{
+    console.log("server listne")
     
 })
