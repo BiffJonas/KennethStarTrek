@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "watch:scss": "onchange sass style.scss public/style.css",
+    "scss": "sass style.scss public/style.css",
     "watch:html": "onchange html",
     "node": "nodemon app.js",
     "start": "npm run node && npm run watch:scss"

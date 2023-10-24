@@ -1,15 +1,22 @@
-const express = require('express');
-const path = require('path');
+const express = require('express')
+const app = express()
+const path = require('path')
+app.use(express.static('./public'))
 
-const app = express();
-const port = 5000;
+// app.get('/', (req, res) =>{
+//     res.sendFile(path.resolve(__dirname, './Navbar-app/index.html'))
+    
+// })
 
-app.use(express.static(path.join(__dirname, 'public')));
+// app.get('/about', (req, res) =>{
 
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
-});
+// })
 
-app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
-});
+app.all('*', (req,res) =>{
+    res.status(404).send('page not found')
+})
+
+app.listen(5000, ()=>{
+    console.log('server is listnening')
+    
+})
