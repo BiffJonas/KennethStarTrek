@@ -9,7 +9,7 @@
 <body>
     <h1>KennethStarTrek</h1>
     <h2>Star Trek Episodes:</h2>
-    <ul>
+    <ul id="episode_titles">
         <li>The Kenneth Trap</li>
         <li>Kenneth X</li>
         <li>Where No Kenneth Has Gone Before</li>
@@ -31,7 +31,12 @@
         <li>The Big Kenneth</li>
         <li>Skin of Kenneth</li>
     </ul>
-    <button onclick="colorYellow()">Hello</button>
+    <form>
+        <label>Add another title:</label>
+        <input type="text" id="add_title"><br><br>
+        <p id="error_text"></p>
+    </form>
+    <button onclick="addTitle()">Add</button>
     <script src="logic.js"></script>
 </body>
 
