@@ -51,4 +51,4 @@ function unregister_service__worker() {
 }
 
 register_service__worker();
-unregister_service__worker();
+// unregister_service__worker();
