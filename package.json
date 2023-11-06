@@ -1,32 +1,32 @@
 {
-  "name": "kennethstartrek",
-  "version": "1.0.0",
-  "description": "appreciasion page of our belved webbteacher kenneth many adventures",
-  "main": "index.js",
-  "scripts": {
-    "watch:scss": "onchange sass style.scss public/style.css",
-    "scss": "sass style.scss public/style.css",
-    "watch:html": "onchange html",
-    "node": "nodemon app.js",
-    "start": "npm run node && npm run watch:scss"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BiffJonas/KennethStarTrek.git"
-  },
-  "author": "Johannes, Alfred",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/BiffJonas/KennethStarTrek/issues"
-  },
-  "homepage": "https://github.com/BiffJonas/KennethStarTrek#readme",
-  "devDependencies": {
-    "nodemon": "^3.0.1",
-    "onchange": "^7.1.0"
-  },
-  "dependencies": {
-    "body-parser": "^1.20.2",
-    "cypress": "^13.3.2",
-    "express": "^4.18.2"
-  }
+	"name": "kennethstartrek",
+	"version": "1.0.0",
+	"description": "appreciasion page of our belved webbteacher kenneth many adventures",
+	"main": "app.js",
+	"scripts": {
+		"watch:scss": "onchange sass style.scss public/style.css",
+		"scss": "sass style.scss public/style.css",
+		"watch:html": "onchange html",
+		"node": "nodemon app.js",
+		"start": "npm run node && npm run watch:scss"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/BiffJonas/KennethStarTrek.git"
+	},
+	"author": "Johannes, Alfred",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/BiffJonas/KennethStarTrek/issues"
+	},
+	"homepage": "https://github.com/BiffJonas/KennethStarTrek#readme",
+	"devDependencies": {
+		"nodemon": "^3.0.1",
+		"onchange": "^7.1.0"
+	},
+	"dependencies": {
+		"body-parser": "^1.20.2",
+		"cypress": "^13.3.2",
+		"express": "^4.18.2"
+	}
 }
