@@ -31,7 +31,8 @@ function register_service__worker() {
 				console.log("Service worker successfully registerd");
 			})
 			.catch((err) => {
-				console.log("Service worker not registerd");
+				// console.log("Service worker not registerd");
+				console.error(err);
 			});
 	}
 }
